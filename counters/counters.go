@@ -1,7 +1,11 @@
 package counters
 
-import (
-	"fmt"
-	"git"
-)
-type alertCounter int
+type User struct {
+	Name string
+	Email string
+}
+
+type admin struct {
+	User
+	Rights int
+}
